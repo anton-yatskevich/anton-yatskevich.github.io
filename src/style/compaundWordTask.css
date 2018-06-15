@@ -1,0 +1,34 @@
+.word-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.first-part {
+    border: 1px solid black;
+    padding: 20px;
+    padding-right: 60px;
+    min-width: 250px;
+    margin: 20px;
+}
+ 
+.second-part {
+    margin: 20px;
+    padding: 20px;
+}
+
+.correctDrop {
+    background-color: rgb(112, 255, 107);
+    padding: 20px;
+}
+
+.wrongDrop {
+    background-color: rgb(255, 107, 107);
+    padding: 20px;
+}
+
+.invisible {
+    visibility: hidden;
+}

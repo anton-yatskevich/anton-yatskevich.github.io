@@ -1,0 +1,14 @@
+.expression {
+    margin: 20px auto;
+}
+
+.expression span {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.expression input {
+    border: 1px solid grey;
+    width: 100px;
+    padding: 5px;
+}

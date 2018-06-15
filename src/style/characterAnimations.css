@@ -1,0 +1,596 @@
+@keyframes body-attack-shot {
+    0%
+    {
+        background-position: 0px 100px;    
+    }
+    3%
+    {
+        background-position: -500px 100px;
+    }
+    6%
+    {
+        background-position: -1000px 100px;
+    }
+    9%
+    {
+        background-position: -1500px 100px;
+    }
+    40%
+    {
+        background-position: -2000px 100px;
+    }
+    50%
+    {
+        background-position: -2500px 100px;
+    }
+    60%
+    {
+        background-position: -3000px 100px;
+    }
+    70%
+    {
+        background-position: -3500px 100px;
+    }
+    80%
+    {
+        background-position: -4000px 100px;
+    }
+    90%
+    {
+        background-position: -4500px 100px;
+    }
+    95%
+    {
+        background-position: -5000px 100px;
+    }
+    100%
+    {
+        background-position: -5500px 100px;
+    }
+}
+
+@keyframes body-opponent-last-shot {
+    0%
+    {
+        background-position: -3000px 100px;
+    }
+    45%
+    {
+        background-position: -3500px 100px;
+    }
+    50%
+    {
+        background-position: -4000px 100px;
+    }
+    60%
+    {
+        background-position: -4500px 100px;
+    }
+    70%
+    {
+        background-position: -6500px 100px;
+    }
+    75%
+    {
+        background-position: -7000px 100px;
+    }
+    80%
+    {
+        background-position: -7500px 100px;
+    }
+    85%
+    {
+        background-position: -8000px 100px;
+    }
+    90%
+    {
+        background-position: -8500px 100px;
+    }
+    100%
+    {
+        background-position: -8500px 100px;
+    }
+}
+
+@keyframes body-opponent-shot {
+    0%
+    {
+        background-position: -3000px 100px;
+    }
+    45%
+    {
+        background-position: -3500px 100px;
+    }
+    50%
+    {
+        background-position: -4000px 100px;
+    }
+    60%
+    {
+        background-position: -4500px 100px;
+    }
+    70%
+    {
+        background-position: -5500px 100px;
+    }
+    75%
+    {
+        background-position: -6000px 100px;
+    }
+    80%
+    {
+        background-position: -3000px 100px;
+    }
+    100%
+    {
+        background-position: -3000px 100px;
+    }
+}
+
+@keyframes head-opponent-shot {
+    45%
+    {
+        top: 33px;
+        transform: rotateZ(12deg);
+    }
+    50%
+    {
+        left: 114px;
+        top: 45px;
+        transform: rotateZ(15deg);
+    }
+    60%
+    {
+        left: 77px;
+        top: 26px;
+        transform: rotateZ(-36deg);
+    }
+    70%
+    {
+        left: 126px;
+        top: 14px;
+        transform: rotateZ(-23deg);
+    }
+    75%
+    {
+        left: 186px;
+        top: 18px;
+        transform: rotateZ(-7deg);
+    }
+    80%
+    {
+        left: 190px;
+        top: 24px;
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes head-opponent-last-shot {
+    45%
+    {
+        top: 33px;
+        transform: rotateZ(12deg);
+    }
+    50%
+    {
+        left: 114px;
+        top: 45px;
+        transform: rotateZ(15deg);
+    }
+    60%
+    {
+        left: 77px;
+        top: 26px;
+        transform: rotateZ(-36deg);
+    }
+    70%
+    {
+        left: 53px;
+        top: 48px;
+        transform: rotateZ(-43deg);
+    }
+    75%
+    {
+        left: 40px;
+        top: 71px;
+        transform: rotateZ(-42deg);
+    }
+    80%
+    {
+        left: -5px;
+        top: 137px;
+        transform: rotateZ(-42deg);
+    }
+    85%
+    {
+        left: -11px;
+        top: 186px;
+        transform: rotateZ(-50deg);
+    }
+    90%
+    {
+        left: -32px;
+        top: 186px;
+        transform: rotateZ(-50deg);
+    }
+    100%
+    {
+        left: -32px;
+        top: 186px;
+        transform: rotateZ(-50deg);
+    }
+}
+
+
+@keyframes head-attack-shot {
+    0%
+    {
+        
+        transform: rotateZ(0deg);
+    }
+    25%
+    {
+        left: 180px;
+        top: 45px;
+        transform: rotateZ(27deg)
+    }
+    30%
+    {
+        left: 190px;
+        top: 24px;
+        transform: rotateZ(0deg);
+    }
+    50%
+    {
+        left: 184px;
+        top: 17px;
+        transform: rotateZ(-7deg);
+    }
+    60%
+    {
+        left: 170px;
+        top: 10px;
+        transform: rotateZ(-15deg);
+    }
+    70%
+    {
+        left: 184px;
+        top: 17px;
+        transform: rotateZ(-7deg);
+    }
+    80%
+    {
+        left: 190px;
+        top: 24px;
+        transform: rotateZ(0deg);
+    }
+}
+
+
+@keyframes body-attack-throw {
+    0%
+    {
+        background-position: 0px 100px;    
+    }
+    20%
+    {
+        background-position: -500px 100px;    
+    }
+    25%
+    {
+        background-position: -1000px 100px;    
+    }
+    30%
+    {
+        background-position: -1500px 100px;    
+    }
+    35%
+    {
+        background-position: -2000px 100px;    
+    }
+    40%
+    {
+        background-position: -2500px 100px;    
+    }
+    45%
+    {
+        background-position: -3000px 100px;    
+    }
+}
+
+@keyframes head-attack-throw {
+    0%
+    {
+        left: 175px;
+        top: 33px;
+        transform: rotateZ(10deg);
+    }
+   
+    20%
+    {
+        left: 160px;
+        top: 23px;
+        transform: rotateZ(-10deg);
+    }
+    25%
+    {
+        left: 172px;
+        top: 37px;
+        transform: rotateZ(10deg); 
+    }
+    30%
+    {
+        left: 220px;
+        top: 55px;
+        transform: rotateZ(23deg);
+        z-index: 0;
+    }
+    35%
+    {
+        left: 200px;
+        top: 52px;
+        transform: rotateZ(30deg);
+    }
+    40%
+    {
+        left: 195px;
+        top: 32px;
+        transform: rotateZ(10deg);
+    }
+    45%
+    {
+        left: 190px;
+        top: 24px;
+        transform: rotateZ(0deg);
+    }  
+}
+
+@keyframes body-opponent-throw {
+    50% 
+    {
+        background-position: -3000px 100px;
+    }
+    55% 
+    {
+        background-position: -5500px 100px;
+    }
+    60% 
+    {
+        background-position: -5000px 100px;
+    }
+    65% 
+    {
+        background-position: -5500px 100px;
+    }
+    70% {
+        background-position: -3000px 100px;
+    }
+}
+
+@keyframes body-opponent-last-throw {
+    50% 
+    {
+        background-position: -3000px 100px;
+    }
+    55% 
+    {
+        background-position: -5500px 100px;
+    }
+    60% 
+    {
+        background-position: -5000px 100px;
+    }
+    65% 
+    {
+        background-position: -6500px 100px;
+    }
+    70% {
+        background-position: -7000px 100px;
+    }
+    75% {
+        background-position: -7500px 100px;
+    }
+    80% {
+        background-position: -8000px 100px;
+    }
+    85% {
+        background-position: -8500px 100px;
+    }
+    100% {
+        background-position: -8500px 100px;
+    }
+}
+
+@keyframes head-opponent-throw {
+    50% 
+    {
+        left: 176px;
+        top: 11px;
+        transform: rotateZ(-15deg);
+    }
+    55% 
+    {
+        left: 126px;
+        top: 10px;
+        transform: rotateZ(-30deg);
+    }
+    60% 
+    {
+        left: 79px;
+        top: 18px;
+        transform: rotateZ(-44deg);
+    }
+    65% 
+    {
+        left: 126px;
+        top: 10px;
+        transform: rotateZ(-30deg);
+    }
+    70% {
+        left: 190px;
+        top: 24px;
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes head-opponent-last-throw {
+    50% 
+    {
+        left: 176px;
+        top: 11px;
+        transform: rotateZ(-15deg);
+    }
+    55% 
+    {
+        left: 126px;
+        top: 10px;
+        transform: rotateZ(-30deg);
+    }
+    60% 
+    {
+        left: 79px;
+        top: 18px;
+        transform: rotateZ(-44deg);
+    }
+    65%
+    {
+        left: 53px;
+        top: 48px;
+        transform: rotateZ(-43deg);
+    }
+    70%
+    {
+        left: 40px;
+        top: 71px;
+        transform: rotateZ(-42deg);
+    }
+    75%
+    {
+        left: -5px;
+        top: 137px;
+        transform: rotateZ(-42deg);
+    }
+    80%
+    {
+        left: -11px;
+        top: 186px;
+        transform: rotateZ(-50deg);
+    }
+    85%
+    {
+        left: -32px;
+        top: 186px;
+        transform: rotateZ(-50deg);
+    }
+    100%
+    {
+        left: -32px;
+        top: 186px;
+        transform: rotateZ(-50deg);
+    }
+}
+
+
+@keyframes potato-correct-throw {
+    0%
+    {
+        top: 195px;
+        left: 125px;
+    }
+    19.9% 
+    {
+        top: 195px;
+        left: 125px;
+    }
+    20%
+    {
+        top: 135px;
+        left: 115px;
+    }
+    24.9% 
+    {
+        top: 135px;
+        left: 115px;
+    }
+    25%
+    {
+        top: 50px;
+        left: 135px;
+        transform: rotateZ(30deg);
+    }
+    29.9% 
+    {
+        top: 50px;
+        left: 135px;
+        transform: rotateZ(30deg);
+    }
+    30%
+    {
+        top: 50px;
+        left: 340px;
+        transform: rotateZ(90deg);
+    }
+    50%
+    {
+        top: 20px;
+        left: calc(100vw - 350px - 150px);
+        transform: rotateZ(1080deg);
+    }
+    70%
+    {
+        top: -200px;
+        left: calc(100vw);
+    }
+}
+
+.body-attack-shot-anim {
+    animation: body-attack-shot  3s steps(1);
+}
+
+.body-opponent-shot-anim {
+    animation: body-opponent-shot  3s steps(1);
+}
+
+.body-opponent-final-shot {
+    animation: body-opponent-last-shot 3s forwards steps(1);
+}
+
+.head-opponent-final-shot {
+    animation: head-opponent-last-shot 3s forwards steps(1);
+}
+
+.head-attack-shot-anim {
+    animation: head-attack-shot 3s steps(1);
+}
+
+.head-opponent-shot-anim {
+    animation: head-opponent-shot 3s steps(1);
+}
+
+.body-attack-throw-anim {
+    animation: body-attack-throw 3s steps(1);
+}
+
+.head-attack-throw-anim {
+    animation: head-attack-throw 3s steps(1);
+}
+
+.body-opponent-throw-anim {
+    animation: body-opponent-throw 3s steps(1);
+}
+
+.head-opponent-throw-anim {
+    animation: head-opponent-throw 3s steps(1);
+}
+
+.body-opponent-final-throw {
+    animation: body-opponent-last-throw 3s forwards steps(1);
+}
+
+.head-opponent-final-throw {
+    animation: head-opponent-last-throw 3s forwards steps(1);
+}
+
+.potato-correct-throw-anim {
+    animation: potato-correct-throw 3s linear;
+}
