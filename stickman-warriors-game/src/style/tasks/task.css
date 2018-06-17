@@ -1,0 +1,68 @@
+.task-page {
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 1000;
+}
+
+.correct-answer {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 255, 0, 0.322);
+    font-size: 40px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.wrong-answer {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 0, 0, 0.322);
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.check-result-button {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.task-page input {
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+}
+
+.task-page p {
+    margin: 20px auto;
+}
+
+.task-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.comparision input {
+    width: 40px;
+}

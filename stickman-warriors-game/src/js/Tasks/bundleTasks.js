@@ -1,0 +1,15 @@
+export { Listening } from "./ListeningTask";
+export { CompoundWords } from "./CompoundWordsTask";
+export { MathTask } from "./MathTask";
+export { SortableLetters } from "./SortableLettersTask";
+export { Translation } from "./TranslationTask";
+export { Countries } from "./CountriesTask";
+export { Square } from "./SquareTask";
+export { Capitals } from "./CapitalsTask";
+export { ComparisionNumbers } from "./ComparisionMathTask";
+export { ExcessItem } from "./ExcessItemTask";
+export { CarsLogo } from "./CarsLogoTask";
+export { ReorderNumbers } from "./SortableNumbersTask";
+export { GrammarTask } from "./SentencesGrammarTask";
+export { FasterAnimals } from "./ComparisionAnimalsTask";
+export { AnimalsNames } from "./AnimalsNamesTask";

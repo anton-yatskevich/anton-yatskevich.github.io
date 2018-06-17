@@ -1,0 +1,10 @@
+.listenning-button img {
+    height: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.listenning-button img:hover {
+    transform: scale(1.1)
+}

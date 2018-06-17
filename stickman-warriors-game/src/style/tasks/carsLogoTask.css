@@ -1,0 +1,74 @@
+.cars-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cars-logo-wrapper > div {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: 90%; 
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cars-logo-wrapper > div:hover {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+.selected-car-logo {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+.audi {
+    background-image: url('../../../assets/images/cars-logo/Audi-logo.png')
+}
+
+.bentley {
+    background-image: url('../../../assets/images/cars-logo/Bentley-logo.png')
+}
+
+.honda {
+    background-image: url('../../../assets/images/cars-logo/Honda-logo.png')
+}
+
+.hyundai {
+    background-image: url('../../../assets/images/cars-logo/Hyundai-logo.png')
+}
+
+.jaguar {
+    background-image: url('../../../assets/images/cars-logo/Jaguar-logo.png')
+}
+
+.lexus {
+    background-image: url('../../../assets/images/cars-logo/Lexus-logo.png')
+}
+
+.mercedes {
+    background-image: url('../../../assets/images/cars-logo/Mercedes-Benz-logo.png')
+}
+
+.suzuki {
+    background-image: url('../../../assets/images/cars-logo/Suzuki-logo.png')
+}
+
+.tesla {
+    background-image: url('../../../assets/images/cars-logo/Tesla-logo.png')
+}
+
+.toyota {
+    background-image: url('../../../assets/images/cars-logo/Toyota-logo.png')
+}
+
+.volkswagen {
+    background-image: url('../../../assets/images/cars-logo/Volkswagen-logo.png')
+}

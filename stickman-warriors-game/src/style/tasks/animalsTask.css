@@ -1,0 +1,98 @@
+.animals-task-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.animals-task-wrapper > div {
+    width: 380px;
+    height: 300px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    margin: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.animals-task-wrapper > div:hover {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+.animals-task-wrapper-item {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+.selected-animal {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+
+.malamute {
+    background-image: url('../../../assets/images/animals/alaskan-malamute.jpg')
+}
+
+.bear {
+    background-image: url('../../../assets/images/animals/bear.jpg')
+}
+
+.tiger {
+    background-image: url('../../../assets/images/animals/bengal_tiger3.jpg')
+}
+
+.camel {
+    background-image: url('../../../assets/images/animals/camel.jpg')
+}
+
+.fox {
+    background-image: url('../../../assets/images/animals/fox.jpg')
+}
+
+.horse {
+    background-image: url('../../../assets/images/animals/horse.jpg')
+}
+
+.lion {
+    background-image: url('../../../assets/images/animals/lion.jpg')
+}
+
+.chicken {
+    background-image: url('../../../assets/images/animals/kurata.jpg')
+}
+
+.corgi {
+    background-image: url('../../../assets/images/animals/corgi.jpg')
+}
+
+.cow {
+    background-image: url('../../../assets/images/animals/cow.jpg')
+}
+
+.crab {
+    background-image: url('../../../assets/images/animals/crab.jpg')
+}
+
+.pig {
+    background-image: url('../../../assets/images/animals/pig.jpg')
+}
+
+.york {
+    background-image: url('../../../assets/images/animals/york.jpg')
+}
+
+.animal-image {
+    width: 300px;
+    height: 230px;
+    background-position: center;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}

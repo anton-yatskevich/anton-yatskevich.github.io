@@ -1,0 +1,94 @@
+.excessItem-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.excessItem-wrapper > div {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: 90%; 
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.excessItem-wrapper > div:hover {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+.selected-excess-item {
+    border: 1px solid #d3d3d3;
+    transform: translate(-15px, -15px);
+    box-shadow: 10px 15px 15px #d3d3d3;
+}
+
+.apple {
+    background-image: url('../../../assets/images/fruits-vegetables/Apple.png')
+}
+
+.apricot {
+    background-image: url('../../../assets/images/fruits-vegetables/Apricot.png')
+}
+
+.banana {
+    background-image: url('../../../assets/images/fruits-vegetables/Banana.png')
+}
+
+.cabbage {
+    background-image: url('../../../assets/images/fruits-vegetables/Cabbage.png')
+}
+
+.corn {
+    background-image: url('../../../assets/images/fruits-vegetables/Corn.png')
+}
+
+.cucumber {
+    background-image: url('../../../assets/images/fruits-vegetables/Cucumber.png')
+}
+
+.eggplant {
+    background-image: url('../../../assets/images/fruits-vegetables/Eggplant.png')
+}
+
+.kiwi {
+    background-image: url('../../../assets/images/fruits-vegetables/Kiwi.png')
+}
+
+.lemon {
+    background-image: url('../../../assets/images/fruits-vegetables/Lemon.png')
+}
+
+.onion {
+    background-image: url('../../../assets/images/fruits-vegetables/Onion.png')
+}
+
+.orange {
+    background-image: url('../../../assets/images/fruits-vegetables/Orange.png')
+}
+
+.peach {
+    background-image: url('../../../assets/images/fruits-vegetables/Peach.png')
+}
+
+.pear {
+    background-image: url('../../../assets/images/fruits-vegetables/Pear.png')
+}
+
+.pepper {
+    background-image: url('../../../assets/images/fruits-vegetables/Pepper.png')
+}
+
+.pumpkin {
+    background-image: url('../../../assets/images/fruits-vegetables/Pumpkin.png')
+}
+
+.tomato {
+    background-image: url('../../../assets/images/fruits-vegetables/Tomato.png')
+}

@@ -1,0 +1,199 @@
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.location-select-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.locations-container {
+    margin: 150px auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.location-item {
+    margin: 0 20px;
+}
+
+.locations-container figcaption {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+.mini-classic-location {
+    width: 330px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    background-size: 100% 100%; 
+    background-color: #fff;
+    position: relative;
+}
+
+.mini-classic-location:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: 45px;
+    background-color: black;
+}
+ 
+.location img {
+    width: 330px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nature-location-img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.location-item:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 5px #d3d3d3;
+}
+
+.player-config-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.demonstration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-config-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 100%;
+    margin: 50px auto;
+}
+
+.player-name-input {
+    margin: 10px auto;
+    max-width: 400px;
+    width: 340px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.empty-input {
+    background-color: rgb(255, 145, 145);
+}
+
+.empty-input:valid {
+    background-color: white;
+}
+
+.player-figure-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+    top: 30px;
+    left: 60px;
+}
+
+.player-figure-demo {
+    position: absolute;
+    bottom: 20px;
+    left: -115px;
+    width: 300px;
+    height: 100%;
+}
+
+.button {
+    padding: 10px 20px;
+    letter-spacing: 0.2rem;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background-color:  #ffffff ;
+    box-shadow: 0 3px 5px #d3d3d3;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+    border: 1px solid #b9b9b9;
+}
+.submit-button {
+    margin: 10px auto;
+}
+
+.config-item-image {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-size: 80% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.config-item-image:hover {
+    transition: 0.3s;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 5px #d3d3d3;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.config-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 340px;
+}

@@ -1,0 +1,56 @@
+.flag {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: 100% 100%; 
+    margin: 20px auto;
+}
+
+.belarus-flag {
+    background-image: url('./../../../assets/images/flags/belarus.png')
+}
+
+.russia-flag {
+    background-image: url('./../../../assets/images/flags/russia.png')
+}
+
+.usa-flag {
+    background-image: url('./../../../assets/images/flags/usa.png')
+}
+
+.finland-flag {
+    background-image: url('./../../../assets/images/flags/finland.png')
+}
+
+.italy-flag {
+    background-image: url('./../../../assets/images/flags/italy.png')
+}
+
+.norway-flag {
+    background-image: url('./../../../assets/images/flags/norway.png')
+}
+
+.france-flag {
+    background-image: url('./../../../assets/images/flags/france.png')
+}
+
+.ukraine-flag {
+    background-image: url('./../../../assets/images/flags/ukraine.png')
+}
+
+.poland-flag {
+    background-image: url('./../../../assets/images/flags/poland.png')
+}
+
+.sweden-flag {
+    background-image: url('./../../../assets/images/flags/sweden.png')
+}
+
+.japan-flag {
+    background-image: url('./../../../assets/images/flags/japan.png')
+}
+
+.germany-flag {
+    background-image: url('./../../../assets/images/flags/germany.png')
+}

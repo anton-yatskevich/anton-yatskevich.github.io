@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.page-container {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    z-index: 100;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.play-button {
+    padding: 30px 50px;
+    background-color:black;
+}
+
+.navigation-item {
+    background-color:black;
+}
+
+.navigation a {
+    display: flex;
+    padding: 30px 50px;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s ease;
+}
+
+header {
+    margin: 80px auto 0;
+    text-align: right;
+    width: 1200px;
+    position: relative;
+    height: 450px;
+}
+
+.killer-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.model-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: scale(-1, 1);
+}
+
+h1 {
+    font-size: 85px;
+    margin-top: 130px;
+}
+
+.page-container section {
+    width: 100%;
+    border-top: 5px solid black;
+    padding: 50px 0;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.content-wrapper p {
+    width: 900px;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    margin: 20px auto;
+}
+
+.screenshots-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.screenshots-container > img {
+    width: 900px;
+    height: 560px;
+    border: 1px solid black;
+}
+
+.next-button {
+    transform: scale(-1, 1);
+    cursor: pointer;
+}
+
+.prev-button {
+    cursor: pointer;
+}
+
+.visible-slide {
+    display: block;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.links img {
+    width: 60px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    font-size: 14px;
+}

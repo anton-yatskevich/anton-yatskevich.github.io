@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-wrapper {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.hidden {
+    display: none !important;
+}

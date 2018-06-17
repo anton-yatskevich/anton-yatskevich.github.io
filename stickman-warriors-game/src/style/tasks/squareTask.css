@@ -1,0 +1,23 @@
+.figure {
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: 100% 100%; 
+    margin: 20px auto;
+}
+
+.rectangle {
+    background-image: url('./../../../assets/images/geometry/rectangle.png')
+}
+
+.rectangle-triangle {
+    background-image: url('./../../../assets/images/geometry/rectangle-triangle.png')
+}
+
+.isosceles-triangle {
+    background-image: url('./../../../assets/images/geometry/isosceles-triangle.png')
+}
+
+.trapezium {
+    background-image: url('./../../../assets/images/geometry/trapezium.png')
+}
