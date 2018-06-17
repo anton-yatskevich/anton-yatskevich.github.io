@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="icon" href="assets/images/other/logo.png">
+<link href="main.css" rel="stylesheet"></head>
+<body>
+    <div class="game-wrapper">
+        <section class="start-page" id="start-page">
+            <header>
+                <div class="killer-image"><img src="assets/images/other/killer.png" alt="killer"></div>
+                <h1>Stickman Warriors</h1>
+                <div class="model-image"><img src="assets/images/other/model.png" alt="killer"></div>
+            </header>
+            <div class="main-menu-wrapper">
+                <section class="menu-container" id="main-menu">
+                    <div class="menu-item" id="new-game">New Game</div>
+                    <div class="menu-item" id="score">High Scores</div>
+                    <div class="menu-item" id="about">About</div>
+                </section>
+                <article id="main-score-section" class="main-score-section hidden">
+                    <h2>Top results</h2>
+                    <div id="main-score-container" class="score-container"></div>
+                    <button class="button close-button">Close</button>
+                </article>
+                <article id="main-about-section" class="main-about-section hidden">
+                    <p>Stickman Warriors is a fighting game in which you must fight against other virtual stickman 
+                        using your very own deadly stickman warrior and your awesome brain. Before you enter the arena you can choose location, 
+                        customise the appearance of your warrior and give them different guns.</p> <p>Once you have created your stickman warrior you can start fighting! 
+                        Push button attack, select attack type and solve mini tasks to defeat enemies who are trying to kill you. 
+                        This game is a huge amount of fun and you will find yourself re-entering the arena time and time again to beat your personal records and training your brain!
+                    </p>
+                    <button class="button close-button">Close</button>
+                </article>
+            </div>
+        </section>
+        <section class="location-select-page hidden" id="location-select">
+            <h2>Select Location</h2>
+            <section class="locations-container" id="locations-container">
+                <figure class="location">
+                    <div class="mini-classic-location location-item" id="classic"></div>
+                    <figcaption>Classic</figcaption> 
+                </figure>
+                <figure class="location">
+                    <img class="location-item" id="building" src="assets/images/background/0.jpg" alt="building">
+                    <figcaption>Building</figcaption>   
+                </figure>
+                <figure class="location">
+                    <img class="location-item" id="nature" src="assets/images/background/1.jpg" alt="nature">
+                    <figcaption>Forest</figcaption>   
+                </figure>
+            </section>
+        </section>
+        <section class="player-config-page hidden" id="config-page">
+            <h2>Create your character</h2>
+            <div class="player-config-container">
+                <section class="demonstration">
+                    <div class="player-info">
+                        <h3>Enter Your Name</h3>
+                        <input class="player-name-input" id="player-name-input" type="text" placeholder="Your Name" required="">
+                    </div>
+                    <div class="player-figure-container" id="player-figure"></div>
+                    <div class="submit-button"><button class="button" id="submit-button">Start game!</button></div>
+                </section>
+                <section class="options">
+                    <div class="player-face" id="face-container">
+                        <h3>Select Face</h3>
+                    </div>
+                    <div class="player-style" id="style-container">
+                        <h3>Select Style</h3>
+                    </div>
+                    <div class="player-gun" id="gun-container">
+                        <h3>Select Gun</h3>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="battle-field hidden" id="battle-field">
+            <div class="battle-field-header">
+                <div class="player-name" id="player-name"></div>
+                <div class="game-level">level <span id="game-level"></span></div>
+                <div class="opponent-name" id="opponent-name"></div>
+            </div>
+            <div id="health-bar" class="health-bar"></div>
+            <div class="button attack-button attack-button-animation" id="attack-button">Attack!</div>
+            <div class="game-result-window modal-wrapper hidden" id="game-result-page">
+                <div class="modal-window hidden" id="win-game-window">
+                    <h2>Congratulations!</h2>
+                    <p>Do you want to fight with next stickman?</p>
+                    <div class="buttons-block">
+                        <button class="button exit-to-menu-button">No, go to menu</button>
+                        <button class="button" id="next-game-button">Yes, i'm ready!</button>
+                    </div>
+                </div>
+                <div class="modal-window hidden" id="lose-game-window">
+                    <h2>You lose!</h2>
+                    <p>You solved <span id="final-score-task"></span> tasks and beat <span id="number-of-victories"></span> stickman</p>
+                    <h3>TOP RESULTS</h3>
+                    <div class="score-container" id="score-container"></div>
+                    <button class="button exit-button">Exit to menu</button>
+                </div>
+            </div>
+            <audio id="gun-shot-sound" src="assets/sounds/gun-shot.wav"></audio>
+            <audio id="throw-sound" src="assets/sounds/throw.wav"></audio>
+        </section>
+        <section class="modal-wrapper attack-config-page hidden" id="attack-config-page">
+            <div class="modal-window" id="attack-type">
+                <h2>Select Attack Type</h2>
+                <div class="attack-type-container">
+                    <div class="attack-config-item attack-type-item" id="throw">Throw Attack</div>
+                    <div class="attack-config-item attack-type-item" id="shot">Shot Attack</div>
+                </div>
+            </div>
+            <div class="modal-window hidden" id="task-type">
+                <h2>Select Task</h2>
+                <div class="task-type-container">
+                    <div class="attack-config-item task-type-item" id="MathTask">Math<br>Task</div>
+                    <div class="attack-config-item task-type-item" id="Translation">Translation</div>
+                    <div class="attack-config-item task-type-item" id="SortableLetters">Sortable<br>letters</div>
+                    <div class="attack-config-item task-type-item" id="Listening">Listening</div>
+                    <div class="attack-config-item task-type-item" id="CompoundWords">Compound<br>words</div>
+                    <div class="attack-config-item task-type-item" id="Countries">Countries<br>flags</div>
+                    <div class="attack-config-item task-type-item" id="AnimalsNames">Animals</div>
+                    <div class="attack-config-item task-type-item" id="Square">Calculate<br>Square</div>
+                    <div class="attack-config-item task-type-item" id="Capitals">Capitals</div>   
+                    <div class="attack-config-item task-type-item" id="ComparisionNumbers">Comparision<br>of numbers</div>
+                    <div class="attack-config-item task-type-item" id="ExcessItem">Find excess<br>image</div>   
+                    <div class="attack-config-item task-type-item" id="CarsLogo">Cars Logo</div>   
+                    <div class="attack-config-item task-type-item" id="ReorderNumbers">Reorder<br>numbers</div>
+                    <div class="attack-config-item task-type-item" id="GrammarTask">Grammar<br>Task</div>
+                    <div class="attack-config-item task-type-item" id="FasterAnimals">Comparision<br>of animals</div>
+                </div>
+            </div>
+        </section>
+        <section class="task-page hidden" id="task-field">
+            <div id="math-task-field" class="task-wrapper hidden">
+                <p>What is the result of this expression?</p>
+                <div class="expression" id="expression">
+                    <span id="first-number"></span>
+                    <span id="operation"></span>
+                    <span id="second-number"></span>
+                    <span>=</span>
+                    <input type="text" id="result" autofocus>
+                </div>
+            </div>
+            <div id="translation-task-field" class="task-wrapper hidden">
+                <p>Translate the word below into the Russian language!</p>
+                <p class="word-for-translation" id="word-for-translation"></p>
+                <input type="text" id="translation-input" autofocus>
+            </div>
+            <div id="reorder-task-field" class="task-wrapper hidden">
+                <p>Put the letters in the correct order to get right word!</p>
+            </div>
+            <div id="listenning-task-field" class="task-wrapper hidden">
+                <p>Click the button below and enter what you heard!</p>
+                <div class="listenning-button"><img  id="listen-button" src="assets/images/other/play-button.png" alt="Play"></div>
+                <input type="text" id="listenning-answer">
+            </div>
+            <div id="compound-word-task-field" class="task-wrapper hidden">
+                <p>Drag parts of words from right to left to create compound word!</p>
+                <div class="word-wrapper">
+                    <div class="start-parts" id="start-parts"></div>
+                    <div class="end-parts" id="end-parts"></div>
+                </div>
+            </div>
+            <div id="countries-task-field" class="task-wrapper hidden">
+                <p>Which country's flag is this?</p>
+                <div class="flag-wrapper" id="flag-wrapper"></div>
+                <input type="text" id="country-answer" autofocus>
+            </div>
+            <div id="squareFigure-task-field" class="task-wrapper hidden">
+                <p>Calculate square and enter your answer!</p>
+                <div class="figure-wrapper" id="figure-wrapper"></div>
+                <input type="text" id="square-answer" autofocus>
+            </div>
+            <div id="capitals-task-field" class="task-wrapper hidden">
+                <p>What city is the capital of <span id="country-for-capital-task"></span>?</p>
+                <input type="text" id="capitals-answer" autofocus>
+            </div>
+            <div id="comparision-task-field" class="task-wrapper hidden">
+                <p>Compare the numbers and enter required comparision operator (<,=,>)</p>
+                <div class="comparision" id="comparision-task">
+                    <span id="first-comparision-number"></span>
+                    <input type="text" id="comparision-operator" autofocus>
+                    <span id="second-comparision-number"></span>
+                </div>
+            </div>
+            <div id="excessItem-task-field" class="task-wrapper hidden">
+                <p>What is the excess item?</p>
+                <div class="excessItem-wrapper" id="excessItem-wrapper"></div>
+            </div>
+            <div id="carsLogo-task-field" class="task-wrapper hidden">
+                <p>Select <span id="car-logo-name"></span> logo and check your answer!</p>
+                <div class="cars-logo-wrapper" id="cars-logo-wrapper"></div>
+            </div>
+            <div id="sort-numbers-task-field" class="task-wrapper hidden">
+                <p>Sort the numbers in ascending order (from the smallest to the largest)</p>
+            </div>
+            <div id="grammar-task-field" class="task-wrapper hidden">
+                <p>Put the words in the correct order to make sentence</p>
+            </div>
+            <div id="faster-animal-task-field" class="task-wrapper hidden">
+                <p>Select the faster animal</p>
+                <div id="faster-animals-task-wrapper" class="animals-task-wrapper"></div>
+            </div>
+            <div id="animals-task-field" class="task-wrapper hidden">
+                <p>What animal is this?</p>
+                <div class="animal-image-wrapper" id="animal-image-wrapper"></div>
+                <input type="text" id="animal-name-answer" autofocus>
+            </div>
+            <button class="button check-result-button" id="check-result">Check Result</button>
+        </section>
+        <div class="correct-answer hidden" id="correct-answer">Your Answer Is Correct!</div>
+        <div class="wrong-answer hidden" id="wrong-answer">Your Answer Is Wrong!</div>
+        <audio id="correct-answer-sound" src="assets/sounds/tadam.wav"></audio>
+        <audio id="wrong-answer-sound" src="assets/sounds/wrong.wav"></audio>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
