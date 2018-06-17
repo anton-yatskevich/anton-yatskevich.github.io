@@ -18,19 +18,19 @@ header {
 .killer-image {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -100px;
 }
 
 .model-image {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -100px;
     transform: scale(-1, 1);
 }
 
 h1 {
     font-size: 85px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .main-menu-wrapper {
@@ -58,7 +58,7 @@ h1 {
 .main-about-section {
     max-width: 600px;
     text-align: center;
-    margin: 50px auto 20px;
+    margin: 100px auto 20px;
 }
 
 .main-about-section p {

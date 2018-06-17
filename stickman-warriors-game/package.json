@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "anton-yatskevich"
+    "url": "git+https://github.com/anton-yatskevich/anton-yatskevich.github.io/tree/master/stickman-warriors-game"
   },
   "author": "Anton Yatskevich",
   "license": "ISC",
