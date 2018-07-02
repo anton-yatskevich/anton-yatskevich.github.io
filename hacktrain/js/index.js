@@ -21,7 +21,7 @@
         
         const marker = new google.maps.Marker({
             map: map, 
-            icon:"/images/train-icon.png",
+            icon:"./images/train-icon.png",
         });
     
         for (let i = 0; i < pathCoords.length; i++) {                
